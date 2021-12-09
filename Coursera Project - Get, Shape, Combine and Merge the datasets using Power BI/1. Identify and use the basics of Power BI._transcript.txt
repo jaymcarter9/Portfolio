@@ -1,0 +1,122 @@
+Welcome to this guided project about “Get, Shape, Combine  
+and Merge the datasets using Power
+  BI” My name is Omnia, and I will be your instructor 
+for this project. 
+I’m a computer engineer and I’ve been analyzing data 
+and representing data since early in my career. 
+This project is for people who are interested in data 
+analysis , data modelling and how we manipulate and clean
+ the data using power BI.
+ You don’t need to be a good programmer or data expert
+ to take this project,
+ we will begin from zero.
+Microsoft Power BI is a suite of business intelligence (BI),
+ reporting, and data visualization
+ products and services for individuals and teams. 
+Power BI stands out with streamlined publication and
+ distribution capabilities, as well as integration 
+with other Microsoft products and services. And a business
+ analytics solution that lets you visualize
+ your data and share insights across your organization, or 
+embed them in your app or website.
+” The solution comprises several products and services, and 
+value and versatility comes from leveraging the individual elements, and
+ taking advantage of how they work together. 
+Many companies’ user power bi to, connect to data, Transform 
+and model the data, create charts and graphs, create reports
+ and dashboards that are collections of visuals and finally 
+Share reports with others
+ using the Power BI service.
+ 
+In this project, we will learn how to the basics of power BI,
+ how to use it. 
+create a model and import data from different types of data 
+sources.
+ how to manipulate data: reduce the number of data, 
+merge columns, replace values, 
+change data types and finally use statistical and 
+standard functions.
+in addition to learning how to insert a new index column,
+ append two or more queries with each other, sort and clean
+ the dataset. 
+And finally how to union, except and intersect  ,combine
+ data of two tables and add results in a new table..
+Let us now have a brief overview of the Rhyme platform. On the
+
+ you see my cloud desktop.
+ I am moving my cursor right now. On the left side,
+ the big cloud desktop you see is yours. 
+ This is a hands-on project. So, please watch what I am doing and 
+follow my steps on your own cloud desktop.
+
+ the cursor on top of my cloud desktop and click the Pause
+ button. If I'm going too fast or too slow, you can increase or
+ decrease the speed of the video by clicking the speed button 
+below the Pause button.
+
+I desktop.
+ It opens automatically when you open your cloud desktop, 
+but also, you find the icon here on the desktop. 
+You can click on it, open the tool so we'll click on get
+started and cancel.
+
+We find the home menu, the view menu, the modeling and help
+tabs. On the left side. We find 3 different views. 
+ The first one is a report icon. 
+We use it to create reports. 
+The second icon here which looks like a table is the data
+ view to view and get all our data.
+ And the third is our model and relations.
+Finally, at the right hand side, we have panes. A filter pane, a
+ visualizations pane, and a fields pane.
+ If you'd like to collapse those, you can, to
+have more space on canvas for our report.
+We will click on this icon just like that To import our data,
+ we have to click on get data link here.
+  We have a list of 
+the most common data sources.
+ If we need to see more sources, we click on this link 
+“get data from another resource”. or more
+We will get a list of many data sources. 
+we can find excel and CSV files.
+ we also have access to a SharePoint folder, or a PDF, XML, 
+or JSON files. Databases, including SQL Server, 
+Access, and an entire list of databases. 
+Then we find the power platform tab which has connections to
+ existing data flows, data sets, and the Common Data Service,
+ that are used with PowerApps, PowerAutomate, and shared by
+ Power BI. Azure tab, 
+our cloud services as Azure SQL databases, and Azure SQL
+ warehouses.
+ Online services, which contain SharePoint, Dynamics,
+ Azure appear here as well, Mailchimp, QuickBooks, and so on.
+ And then finally, other. Anything you can't find anywhere else,
+ look here. 
+It will be here.
+We also have the ability to connect using ODBC and
+OLE DB, so we can connect to almost any data source here.
+ Whenever we choose a data source, for example, Excel, and 
+click Connect, 
+whatever happens next is based on the type 
+of data source that we connect to.
+Those are the basics of the user interface for Power
+BI Desktop.
+Let me now show you how we create a table with dummy data.
+We will click on modeling tab, new table.
+Then we will remove this word and write calender =
+calender("1-jan-2000", "31-dec-2050")
+calender("1-jan-2000", "31-dec-2050")
+calender("1-jan-2000", "31-dec-2050") and we will
+Click enter. this expression will generate table named
+calendar containing one column called date and having one and
+having one row for every single date between first jan 
+2000 and the last day of December 20 50.
+Here it is.
+Congratulations.
+You have completed task one.
+In this task, we learn the basics of our B I and how to get
+data and select different types of data source in the next
+in the next 
+In the next task, we will learn how to get and import data
+from different types of sources, how to create a model and
+and save our data.

@@ -1,0 +1,103 @@
+Hello and welcome back to task three of this guided project.
+In the previous task we learned how to get and import data 
+from different types of sources and how to save our data
+ and model.
+in this task, we will learn how to manipulate data such as 
+reduce the number of data, merge columns, replace values,
+ change data types and finally use statistical and standard functions
+functions.
+No, we will close that.
+Now we will go to folder modeling on the desktop. 
+Click on myfile.pbix 
+ it will open in power 
+bi desktop as we see now . 
+Then we will click on transform data here. And transform data. we find that 
+the power query editor is open and it looks like the excel 
+sheet. We find on the right side the name of our table and all 
+the changes we will do in this data set. here.
+Let’s change the name of the table to ‘income’ by clicking
+ on name and then write ‘income’ enter.
+then okay. We find that the name is changed here.
+ Now let’s learn how to decrease and reduce our
+ data. Select 100 records only from this data. We
+can reduce rows.
+ can click on reduce rows then we find 2 options:
+ keep rows, remove rows 
+We will click on keep rows and keep top rows
+and write 100 then okay
+When we move down, we find that we have only 100 rows. 
+And note that in applied steps, kept first added. to our
+changes What if we want to undo this update?
+We can click on this icon and click delete to get back all
+ of the data that we had. We can also remove rows by clicking
+ on reduce rows and remove rows.
+ We can also remove duplicates and blank values from here too. 
+We can also remove columns or keep columns from here. 
+And we also can choose columns
+ we want to keep and remove others.  We can apply
+ all our changes from the button apply & change.
+ If we click on it, we will save all the changes that 
+we applied on the data in the query editor.
+Let’s now filter
+ our data to get all the countries except those whose first 
+letter is v, y and z. 
+We will click again on transform data transform data
+and we will click on this icon.
+and scroll down and remove the right trick from them. 
+Then okay. We find the action has happened. 
+When we hover the cursor 
+here, we find this statement which tells us 
+that we have 188 values with zero empty values and zero errors. 
+when we hover on the column.
+When we hover on column 4, we find that we have empty values,
+ we will delete them
+ when we click on the three dots and remove empties. 
+Perfect.
+We can also replace some values from a column. 
+We can click on the specific column just like that.
+and then on the top right side, we click on the replace values,
+and then we write, we want to replace this number 482
+111 like Okay, we find that it has changed.
+We are going now to define the data type and change it 
+to another.
+When we click on a column, we find at the top of the right 
+side here
+ data type: text.
+When we click on the first column, we find the data type is
+text. When we click on the next one.
+We find the data type is a whole number.
+We can change it to text by clicking on this and choose text.
+So when we click on it again, we will find it.
+Change it to text.
+We can undo the previous change in the applied steps to see
+our what our data looks like before we meet that specific
+change here Whole number After that, it is text Please note
+that if you click on a column whose type is a whole number,
+we find that there are There are some functions that
+appears in the transform tab Here we find that there are
+some functions that appear as statistics,  We can
+we can sum of all the data in this column 
+by clicking on the sum function and here is the output.
+ This number is the summation of all values in this column.
+We will remove it from here and the here we find
+another type of function called standard.
+such as add.   We can add a value of 10 to all the values
+ in this column.
+ We can do that by clicking on standard, add and write 10 
+a clear.
+We find that 1802 changes to 1812 and the last type is so
+scientific , such as Power Square, root and so on.
+The last thing we will learn in this task is how to merge two columns 
+with each other in the Transform tab.
+We will choose our columns and click on text columns, then
+merge columns.
+And we find that a merged column is added as we see
+  and the change is applied in the applied steps.
+Congratulations.
+you have completed task three of this guided project. 
+In  this task, we learned how to reduce the number of data, 
+merge columns, replace values, change data types 
+and finally use statistical and standard functions,
+ in the next task, we will continue manipulating our data 
+by  insert new index column, append two or more queries 
+with each other, and sort and clean the dataset.

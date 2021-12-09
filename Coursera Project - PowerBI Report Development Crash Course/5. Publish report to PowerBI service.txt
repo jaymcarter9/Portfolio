@@ -1,0 +1,207 @@
+All right, welcome back my friend.
+So now we have also created a sample report rate.
+It's a simple report.
+Nothing fancy about it.
+But uh I just wanted to show you how you can create
+this report and how you can drag into our fields and how you
+can set filters and so on.
+Right? But feel free to explore more.
+It's quite self explanatory.
+Um these are the filter.
+These are the visual ation.
+We have a bunch of options for visualization, feel free
+to explore more of it.
+Okay, I've discovered the basic of it.
+All right.
+So now that we have created a report but it is still on our
+local right?
+Because we're using a desktop version of Power BI desktop,
+which is on the local workspace we have.
+Right, But there is something called US Power Bs service,
+which is a cloud version.
+So what you have to do is that um go to your browser's enter
+ab dot power bi i dot com.
+Okay. And signing Now remember I assume you already have
+a account.
+So just sign into your account, I will sign into mine.
+This is my account.
+Okay click on next and I'm going to enter my passport.
+Okay. So after you sign in this is how it will look.
+This is your power bi I service now.
+What is it used for?
+Because uh imagine if you want to share the report
+with multiple users, right?
+If you are to share your report with multiple users, uh then
+you can't do it using your local power bi desktop
+because it's all local and part of the purpose.
+And that purpose of power using power better stuff is
+that it allows you to create.
+Report.
+It is a report development software, report development
+application.
+But if you have to share a report with multi multiple users,
+how do you do it?
+You have to publish a report to this particular workspace
+of your husband or your log in.
+You have your own workspace.
+You have my workspace as well as you you can see multiple
+workspaces of your organization.
+Of course, you need proper license for a Power bi, a license
+for it with a free life Power BI license, you cannot share it
+with multiple users, but you can still publish it to your my
+workspace.
+My workspace is something that is like a sandbox environment,
+that is something specific for you.
+Nobody else can see any content within my workspace.
+Right? So this is where you could publish your Power BI
+report, which you have created with three license, you can
+only publish it to my workspace.
+But if you have paid license then you could create a new
+workspace.
+You can deploy like you can just just create a workspace.
+Um you see it's saying a great of power be a pro because now
+I do not have a pro license, it's a free license for me as
+well. So you can create a workspace and then you can add
+users to read workspace.
+So basically you can give access to users that workspace.
+So whatever reports you publish in that workspace,
+those users who has access to that workspace will be able
+to view that report.
+Okay, as simple as that.
+So that's the purpose of work space.
+You can create as many workspaces you want, usually
+in organization, you will find a finance workspace which is
+for finance department HR workspace, a sales workspace which
+is for sales department folks.
+And then of course you allow, or you provide access
+for finance people, you provide access only to the finance
+workspace for salespeople, you provide access only
+to the sales workspace and similarly for HR people,
+you provide access only to the HR workspace.
+This is how you segregate the access levels for different
+users for different department because you don't want
+to finance guy to see the A sales reporter.
+Probably the HR report.
+Right? So that's how you set the access levels of users
+and of course you have report which is for finance
+while publishing it, you can select the workspace and you
+can publish it to that particular fund works with a finance
+workspace or whatever users having access to the finance
+books that will be able to see your report.
+So this is how you share your report with multiple users
+within your organization or within the department.
+Okay, so now in our case, we are just going to deploy to my
+book space and whatever you deploy to my art space, it is
+just for you.
+You cannot share it with any other users.
+Okay. So Uh huh.
+So enough of this power where service now what I'll do is
+that I will go to a Power where does stop again over here
+in power where does also even if you do not have a power we
+account still you could create a report.
+You could create reporting power where the stop.
+You can do anything in power so you don't need to need
+to power their license for power.
+Where does stop?
+Right? But when you want to publish it, you need a license.
+Um Either it's a free license.
+It's okay but you need a part of the account.
+So click on the signing option.
+So again enter the same username Frasler which have firepower
+the account, click on continue.
+Let's enter the password.
+I'll enter my password.
+Yeah. All right.
+So I have successfully signed in.
+If you see now over here, I can see my name.
+I might not agree.
+So, I've signed into my power via account and now what I
+could do is that very simple.
+Go to your home and go there should be an option to publish
+over here.
+Just click on this published and we want to say it.
+Of course, yes, we want to save it.
+And I just uh save it somewhere in the stop.
+You can say it.
+Anybody wants men I so I made up out of here.
+Okay. And save it.
+It is going to save our.
+x five and select a destination.
+Now, if you see it is only giving me an option of my
+workspace because I haven't created any other workspace
+or it is not giving me access or it is not showing me
+any other workspace.
+Right? So I'll just select this my workspace and selected
+and it is publishing right now.
+Let's hear the moment and it will publish it.
+It should be quick.
+All right.
+So it has published.
+I'll click unguarded Now let's go to our power be a workspace.
+Let's go to my workspace.
+And if you see uh let's elite is it come close If you see
+it has published this ahmed part.
+We just ignore this.
+This other report.
+This is what I had created earlier.
+But amid part where there is the name of the power we file
+right? Which we had saved.
+Now if you see it has deployed two things.
+One is the report.
+One is the detention because every report consists of a data
+set which is our back end data and the report which is
+a front end data.
+Right. Different and visualization.
+So we are interested in this front end report but obviously
+do not delete this data set.
+This is also important uh and I'll click on this amid Barbara
+and it should show us all the data.
+You see I had created multiple pages but it was
+blind the second page, third period blank.
+Right. But I just showed you had created multiple pages.
+So it's showing me all those multiple pages and I just
+minimize this so that I get a better view, minimize this.
+Okay? You see this is the exact same report, right?
+I'll click on this.
+This is my power bi desktop in my browser.
+This is the exact same report which I'm seeing, right?
+So this is how you publish a report.
+Now. I could um you know, I could do a couple of options like
+I could export that report in PowerPoint pdf or will be in
+Excel as well.
+I could some apply some filters as well just on the filters
+on this page and everything.
+I could also edit this report but I think I do not have
+access to edit it.
+Uh so that's okay.
+But there is an option if you have power their parole license,
+you can edit this report in this in this powered by service
+on this browser as well.
+You get most of the features which you have in power where
+the stop on this power via service.
+Okay. But you need a better license for that.
+All right.
+So that's it.
+Uh we have successfully published our Power bi report to the
+Power via service and this part way services, cloud based.
+Right. This is um entirely cloud based service.
+Uh We've seen, how do you publish this report to power were
+service?
+We've also seen what is powered via service.
+And so I think that is the end of this particular project.
+Um We've seen a very simple steps, a very simple way to
+create a simple power bi.
+Report all the basic steps that you would require.
+Uh This is especially for bigness who have no experience with
+power bi.
+I and uh with very less amount of uh the time you could uh
+see how can you create a power bi report?
+So I hope you like this project.
+I hope this was useful.
+Um I hope this, I hope you explore more of power here because
+there is a lot and a lot of more features in available in
+power bi.
+Um I hope you explore more.
+Ah I hope you like this project.
+All right, thank you so much.
+Um and all of us.

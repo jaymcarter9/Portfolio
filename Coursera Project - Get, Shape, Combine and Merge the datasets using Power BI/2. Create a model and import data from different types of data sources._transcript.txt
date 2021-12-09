@@ -1,0 +1,101 @@
+Hello and welcome back to task two of this guided project.
+ In the previous task 
+we learned the basics of power bi desktop.
+ In this task we will learn to get and import data from 
+different types of sources and how to save our data 
+and the model.
+In this task we need to create a model, 
+we need to get some data and we are going to import excel 
+file. this is a dummy data that is downloaded from a free site. 
+website.
+This dataset is the income of person per year in different
+ countries. 
+So we will click on get data, 
+then excel, we will choose our file which is 
+PC/Desktop/Modeling” “income per person”  click
+on it, open
+We will wait a few moments till the Navigator box appears 
+ Note also that the load and transform data buttons are not yet 
+enabled 
+and the reason is, even though we are previewing this,
+ we haven't selected anything yet. 
+When we click the check box for table, note 
+that the load and transform data buttons get fired up. 
+So we So we are going to click them here and click
+ load button, 
+and it takes a moment, creating connections 
+to model, loading a model, 
+And at this point, we will wait.
+and at this point, where is the
+ data? 
+This is a report view. 
+So we have to click on data view to see our data. 
+And here it is. 
+ we can also save our work by clicking on file, then save as 
+and here write 
+any name to save that file. 
+lets  write myfile. and click save. 
+If we go to our desktop we will find the file there. 
+ what if we want to close this file 
+and that model? We will click on close icon. 
+If we open it again,  by clicking this icon, we find
+that we open a new file with new data model. Which means
+ that if we click on data view, we don’t find the dataset.
+we don’t find the dataset.
+we don’t find the dataset.
+
+ I'm going to show you how to connect to a comma-separated
+ value, or csv file, another common data type.
+ We will click on get data then this link, csv file and choose our
+ file. and then we can change comma separated to any type
+from here in this list.
+But we will choose comma and click load
+We will find our fields in the field pane
+ so the data is loaded successfully.
+ When we click on data view, we will find our model.
+model
+
+ so it should make sense that databases are common sources
+ for the data we use in Power BI Desktop. 
+So if we choose get data 
+from another source and choose database, we have a list 
+of databases. And unless you already know how to make 
+a connection to a database. we select the database type 
+that you want to connect to and click connect, and then open
+ the advanced options, if there are any, 
+If there are any to view all of the information that 
+will be required for you to connect to this database. We
+ will have a server name and many other fields to establish
+ the connection. 
+We can choose another type of databases which is googleBigQuery.
+googleBigQuery.
+ We find that we should have a user to sign in with it 
+to connect.
+Okay. Okay.
+Last last thing.
+We will learn to get data from websites.
+  We are going to click on google chrome tab. 
+We will find that there is a link.
+We will click on it.
+We will find that there is a table at the end of the page.  
+We need to import that table in the power BI. 
+So we're going to select and copy this URL, and then
+ we're going to go to Power BI Desktop. Click on get data. Then 
+in the search bar. we write web
+. And click on it, then paste the URL.  then ok and
+wait till the navigator box appears. 
+We noticed that we want that table which is looks like here.
+So we will click on it and load when the When the fields
+appears here.
+When the fields appear here we click on that to see
+our table.
+And here it is.
+This is our model.
+Congratulations.
+We have completed task2. 
+In this task we learned how to import data from different
+ types of sources and how to save our data and model. 
+In the next task, we will learn how to reduce the number of 
+data, merge 
+columns, replace values, change data types and finally 
+use statistical and standard functions.

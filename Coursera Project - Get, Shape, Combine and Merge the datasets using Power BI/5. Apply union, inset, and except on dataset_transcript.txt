@@ -1,0 +1,101 @@
+
+this guided project.
+In the previous task we learned how to further manipulate our data
+ and insert new index columns, append two or more 
+queries with each other, sort and clean the dataset.
+ In this final task
+ we will learn how to apply union, except and intersect ,
+of two tables and add results in a new table.
+First, we will close that and open new one.
+ Let’s import the data from folder modeling on the 
+desktop excel and choose Task five.
+We have sheet one and sheet 2 We will load both.
+We have in sheet 1 names and sheet two other names. 
+ Now we will combine two tables together and append
+ them in different ways like union, except, intersect and
+see what are the differences. 
+let's check it out. 
+sometimes we want to combine tables and the power query is
+the right choice.
+we can use append or merge transformations, which we
+ can use to combine
+ data from a couple of tables together, 
+however sometimes we need to do this index, 
+for example, dax gives you the ability to combine these 
+dynamically.
+now the first way that you can combine these together 
+in one table is using union. union will bring all the values 
+and all the rows actually from the two tables. We will click 
+on modeling tab, new table. We write, Union = Union (sheet 1, sheet 2) 
+Union = Union (sheet 1, sheet 2) and enter. we find it
+here.  Let’s drag and drop it 
+and then click enter. here. We will click on it and click on 
+format in the visualizations palette. 
+Then move down and choose values. Change font size to
+ 50 pt. 
+and then maximize the box 
+by dragging this. here.
+ Let’s drag sheet 1 
+ and do the same for shet 2 
+Toe Compare between them.
+format values text size 50.
+lets compare between them Now what we see here are the
+names in table one or sheet one and the names in csheet two.
+osama doesn't exist in sheet one, but it exists in sheet two.
+We see that union removes the duplicates.
+Okay, The second function is the Intersect function only
+returns the rows that exist in both tables.
+ All of those rows that exist in only one of the tables will
+ be removed from the result set. This is how you can use
+intersect.
+let’s do the same steps,
+Modeling new table and right intersect equal.
+ new table and write intersect = 
+intersect (sheet 1, sheet 2)
+And here it is.
+Who will click on that and we can click here toe, see the
+results We see that all rows
+We will see that this function brings the intersection
+between two tables only which are Mustafa, Joe and Salma as
+we see the index that  the syntax that INTERSECT and 
+union are used are exactly the same.
+The same rule applies on except as well.
+For these three functions, we just need two input
+parameters the two tables If you want all rows from table1
+that don't exist in table two, we can write EXCEPT(Table1,Table2) . 
+lets first close all of that 
+And let's remove those from the report view and then, except
+EXCEPT(Table1,Table2) . 
+Let's click that here and we will click here to view better.
+We find that we have all names that exist in table one and
+not exist in table two.
+note that we can get all rows that are existing in table two
+only swap the function here.
+EXCEPT(Table2,Table2) . 
+Congratulations.
+You have completed the final task in this project.
+In this task, we learned how to combine data in different
+ways and congratulations on finishing the project.
+I hope you have enjoyed taking this project as much as 
+I've enjoyed creating and teaching it. 
+I have enjoyed creating and teaching it.
+As you probably know.
+You're learning doesn't stop here.
+This project is for beginners.
+In this project, we learned how to understand the basics of
+power BI, 
+how to use it. 
+create a model and import data from different types 
+of data sources. 
+We also learned how to manipulate data: reduce the number
+ of data, merge columns, replace values, 
+change data types and finally use statistical and 
+standard functions.
+in addition to learning how to insert a new index column, 
+append two or more queries with each other, sort and clean
+ the dataset.
+ And finally how to apply union, inset, and except of two 
+tables.
+and add results in a new table.
+I Wish you all a good luck
+ and bye-bye.
