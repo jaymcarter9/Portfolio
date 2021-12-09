@@ -1,0 +1,228 @@
+All right, welcome back.
+So now that we have connected to our source data source,
+which is nothing but a three flat files and also imported
+data in power P. I.
+The next step is to understand our data.
+What is our data?
+Let's understand the data and also understand
+the relationship between these three different files.
+Okay, let's try to do that.
+So for that I have opened the three files customer dot C. S.
+We product category subcategory dot csun transactions dot C.
+C. You could also open it undersea dry power B. I.
+And the three felt ready.
+You know the path.
+So let's see the customer that CSC.
+So basically what the data over here is that uh we have
+a list of customers who have done some transactions
+at a retail outlet retail store.
+So this is a retail dataset.
+The dataset of some customers purchasing some products
+for a particular price with some quantity and everything.
+They're doing some transactions.
+So are very usual retail outlet transactions is something
+that we have in our data set.
+So for that the first file that we have, that is the first
+data that we have is the customer dot C. S.
+We this is a master data for all the customers.
+So a unique set of records for all the customers that we have
+in our system.
+Okay. So you have customary gender, city and customer name.
+Okay. No it is a customer ID is unique.
+Customer area is going to be unique.
+And we have a lot of records, A lot of customers.
+Okay. And uh so the next file will have is a product category
+dot subcategory.
+This is again a master file, a master data set for all
+the products that we have in our retail store.
+Okay. Um so we have a product category.
+We have a product subcategory as well, subcategory code as
+well. And these are all the possible product categories
+of categories that we currently have in our system.
+Okay. And the 3rd file is a transaction style.
+Now this file contains the actual transactions
+with a customer has performed in your retail store.
+Okay? So you have transaction idea which is again unique.
+You have customary which is again a reference
+from the customer.
+That CSE file.
+Okay then you have the transaction date.
+You have the product subcategory cord.
+You have the product category cord.
+These core.
+Both the courts are again reference to the product categories
+of category dot seriously file.
+Okay. You have the quantity of the rate at which
+they have purchased the tax total amount.
+And the store type just store type is just just a medium
+privilege.
+They purchased a customer purchased a particular product.
+Okay. It can be e shop, It can be a flagship store.
+It could be anything.
+Okay, so these are the three files that we have.
+All right?
+So now that we have imported a data in power beer, there's
+our power beer.
+Now it is a time to create relationship between these
+three file because these three are all isolated.
+A standalone data that we have in power here.
+Let's try to create relationship.
+Now we know that customer ready um is present in transactions
+file. Uh There's a product category subcategory cord which is
+also present in the transactions file.
+Right? So what we're going to do is that create relationships.
+So there are multiple ways to do it.
+Uh The simplest way is you see this customer ready to select
+this customary and drag it over here, select it and drag it.
+Or maybe selective over here this way.
+And uh it will create a relationship.
+You see it will create.
+It has beautiful create a relationship that's double click
+on this relationship now.
+And these are transactions fight data.
+You have customer ready?
+You have customer, you have a customer ready now.
+Cardinality is again, it will undermine the cardinality based
+on the other language.
+To transit reminded many to one.
+Basically this transactions has many records for one customer
+ready, whereas all your customer ready is unique, right?
+Which is why it's many to one.
+Cross filter direction is single.
+Always keep single.
+There is an option to keep both.
+I won't get a lot of details into what is both.
+But to summarize, let's just just understand that 99.99%
+of the time you'll keep it single.
+Okay, just keep it single and click on.
+OK. All right.
+Uh These are you create.
+So these are we created relationship between customer
+and transactions.
+Now, let's see how do you create relationship between product
+category subcategory and transactions?
+Remember?
+Product category subcategory and customers are not directly
+related to each other.
+Right. Because based on the data that we have uh there is
+no common column through which there is a link,
+but they are linked by other transactions.
+Right? So let's try to create a relationship
+between transactions and product category subcategory Now,
+if you absorb we have product category court and subcategory
+cord in product category subcategory fi.
+Uh Sorry, the table Now there is no single column which
+will make through which we could identify a unique record
+in this particular stable.
+Right. So what we have to do is that we have to create a new
+calculated column, a new calculated column which will be
+unique in the stable, which will uniquely identify a single
+record.
+And similarly will create the same column in the transaction.
+Stable as well.
+Just so that we could create relationship because creating
+relationships on multiple columns in power bi i is not very
+straightforward, like using this bizarre, you cannot create
+multiple active relationship.
+There is a way to do it of course uh you know, but there is
+no straightforward way of doing it.
+So just to keeping it simple, what we are doing it is
+that we're just applying a hack.
+There's just a simple hack that we're that we're doing it
+for that, go to this report.
+We over here and under product categories subcategories
+if you whore or these three dots, you'll find more options.
+Click on it, click on new column.
+So now we are seeing what is dax, We are going to write a tax
+Okay attacks script dax function basically.
+So what we're doing is we're adding a new calculated column.
+So if you see when you click the new kilometer at this
+over here, just name this column as product at sub card I. D.
+Okay so there's a combination of product categories
+of category because uh combination of product category
+subcategory will always be unique based on our data.
+So what the syntax is that click on equal to sign and just
+we have to concur in it.
+Right? So there is some predefined functions available index.
+So for that just enter con cat and you'll be prompted
+with this, click on this concurred in it.
+Okay when he conquered he made.
+Okay. And uh this opening bracket.
+The first text is going to be product category.
+So just enter product category.
+Now you're seeing all the fields which matches product
+category.
+We are interested in this field.
+Product category court.
+Okay. Product category cord coma.
+And again I'll say proud.
+Subcategory double think on that rod.
+Subcategory court.
+And I will enter out closing bracket if you see the closing
+bracket.
+Uh That indicates that the con cabinet function has ended.
+And I'll just click on enter.
+If you click on enter it will create this new column
+over here.
+If you see it has created this product category.
+Subcategory a small effects and indicate that it's
+a calculated column.
+Similarly, we are going to create this column in transactions
+as well because we have product category subcategory
+transaction stable as well.
+So we'll click on new column and and I will again replace
+the X. This way.
+Broad add sub tired.
+I agree.
+Okay I will replace this.
+And uh I will again right the same function concurrently made
+with opening bracket of products.
+Now, if you live in a byproduct you're you're seeing all
+the fields only from transactions, right?
+Because we're adding this column in transaction statement.
+So product category, core electra chroma.
+Again. Island.
+P. R. O. D.
+Broad. And it will just from 30 minutes I'll select product
+subcategory cord and I will enter closing bracket and I
+will enter, click on enter.
+And it has created this column.
+Product categories of category.
+Okay, so we have created this buddhist columns.
+Now in both tables.
+Now let's go back to our relationship view over here
+in the model section.
+And now let's create relationships simple.
+Let's select this field.
+Dragon drop it uh towards this field in product categories
+of category.
+And it will automatically click create a relationship.
+If you develop like this, let's check uh in product
+categories of category we have this some proud catsup cat I.
+D. This is also products of cat I. D.
+The calculated field that we have created.
+The relationship.
+The cardinality is many to one.
+That is correct because in product categories of category
+this field is unique, which is why it's one.
+And over there are many records with the same product, catsup
+Cat I. D.
+Which is why it's many of you cross filter direction is
+single and I literally can't.
+Okay, correct.
+So we have now created relationship between our three data
+sets that we have in our power bi I. Um you see we created
+first written customer and transactions.
+Then we created a relationship between category subcategory
+and transactions as well.
+Already.
+Uh just to view all the relationship in a single place.
+If you see there is this manage relationship, click on this
+and you can see all the relationships in your data model.
+This is a good way to review all the relationship, Okay?
+And this looks good to me, so I'll close this.
+All right.
+This is it for this particular session.
+Uh See you in the next session, where we'll see some more
+functions of some more features about this particular report.
+Thank you.

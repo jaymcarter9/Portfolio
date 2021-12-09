@@ -1,0 +1,189 @@
+Yeah. Hello welcome to this project of power bi I.
+Development crash course my name is um it.
+No Gary and I will be your instructor for this project now.
+A basic prerequisite for this project is that you should have
+a valid Power bi I account now.
+How can you get that?
+Just open your chrome browser or any browser for that matter?
+Let's give it a second for it to open.
+Okay so now you can enter at dot power V I dot com, absolute
+power grid dot com.
+Enter this address and here you'll find a way to create
+an account.
+If you already have an account you can just click on sign in.
+If you don't have an account just click on try free.
+There is an other option too create an account.
+Let me such that here you go.
+You have a sign up option as well over here so click on sign
+up and you know you will get an option to create your free
+account.
+Click on try Power bi I for free it's a free account.
+There's no charge for creating a your power bi account
+and just follow the instructions and you're all set.
+You know just follow the instructions.
+You're all set.
+The only requirement here is that you should have a valid
+work account like a work imitators, not a gmail hotmail.
+Yahoo that email address will not work.
+So you should have your official work account through which
+you could log into Power beer and through which you
+could create an accountant power here, basically.
+All right so that's a very prerequisite of having a Power bi
+account for this particular project after that.
+Now before we start, before we really start with with our
+development, let's first quickly give me a walkthrough.
+Let me give you a walkthrough.
+Okay so um on your workspace I have already pre installed
+Power bear desktop.
+It's a free to download desktop version of Power bi I free
+version of Power were basically which is used for creating
+reports.
+So this is on the desktop.
+You'll find a power bi desktop shortcut.
+So we'll use this in the next particular sessions.
+But just an overview for that.
+And for our Power BI reports, we are going to use some data.
+The source data and the source data is going to be uh
+some flat file.
+So if you go to a c.
+Trying there's a folder.
+Colours Power bi I double click on it and these are the
+three files that we are going to do.
+These are three data sources for us in our Power bi report.
+Okay. You could of course create a Power bi report using
+any source project supports.
+Like it can it can connect to databases, you can connect
+to cloud databases etcetera.
+But in our project we're going to use these flat fights.
+Uh so we'll study this flat files in detail.
+What are the contents in detail?
+But this was just a quick walk through of um what we're going
+to do. Okay, so let's get started.
+So let's open power where the stock for us.
+This is double click on this icon on your desktop for their
+desktop.
+It's got a second.
+All right.
+So after a few seconds, the part where the storm has opened
+now, this is just a screen which you can get rid of first.
+So if you see on the far right hand side corner, just follow
+my cursor and you'll see a small cross icon.
+It's very, you know, visit it's not visible very clearly.
+For some reason, the screen size or something resolution,
+it's not fitting well, but just go to the far right side
+of this yellow box over here and then just click on it
+and then you'll get rid of this box.
+Here you go.
+You see I got rid of that uh that notification dialog box
+or whether it was.
+So this is our power where the stock so uh this is uh options,
+various options which will of course study in the latest
+sessions.
+This is your can was this is the editor basically where
+you drag and drop your fields, your charts or visuals
+and create nice looking, stunning reports.
+This is your visual asian.
+All the visual asian that is available to you.
+This is the filters that you could apply on your report
+and this is the fields which is available for you to create
+a report right now.
+It's empty because we haven't created any field.
+Right? So the first step of creating any power bi report is
+to connect to your datasets, connecting to your data source
+is the first step.
+And remember our data source source is those three files.
+Three flat files which is present on sea trail.
+Right? So for that on uh if you if you're following makers
+that you see get data over here at the top under home, just
+click on this drop down.
+This will give you all the possible connectors available
+in power here.
+Basically if your data sources sitting in a school sorrow
+database, if it's sitting on somewhere over the web somewhere
+in Excel uh and it it has a whole bunch of options.
+Trust me, click on more, I clicked on more and it will it
+will just show us all the possible options are connect us
+that power their pro isis.
+Okay, so this is it.
+So you have different databases that it supports, oracle.
+Sybase, Carita, ASap, all the different Azure data sources
+and so on.
+So it has a whole bunch of systems that power bi I
+could correct to and get the data.
+Okay. In our case in our case we want to connect to our local
+system.
+Right? And you want to connect us to our flat files, which is
+nothing but a CSP file.
+So I go to my file section and just click on text CSP
+and click on Canada.
+Okay, now it is asking me uh like I just have to browse
+to the location where my files are present.
+So I'll go to see tribe.
+I'll go to Power bi.
+I and I'll select all these files at once.
+Actually wanted it.
+I'm not once.
+It it records along with his left one.
+So what are the time product category?
+Subcategory dot C. S.
+We I think it's important.
+Okay. No, uh see it's showing us a preview of the data
+in that file.
+I'll click on Lord.
+So that lower product category subcategory it's still doing
+it. You see this dialog box over here this window, let
+it finish.
+Let's give it a few seconds.
+It's a small file so it shouldn't take long actually.
+Okay, so that is done.
+So now again click on get data, click on more and uh we have
+to click on text CSP until there's a shortcut older.
+I shouldn't click the order.
+So click on text C S V U C and click on connect.
+And I'll click on customer dot C. S. V.
+Open. And I'll say Lord, this is just a preview of my data
+which is President Mike Osama dot C S V. Anglican Lord.
+And let's get a few seconds while it is loading the customer
+fight. All right.
+It's already done.
+So again I click on get data this time.
+There is short cut away.
+Like I use this one as well.
+Text class.
+Yes, we and the last Phyllis transactions taxis.
+We'll see in detail what water in this file.
+What is the data?
+It is a content in this file.
+So right now let's just load this file I think on Lord.
+And ah it's Lori.
+All right.
+So we have loaded this tree file.
+You see now in the field section you automatically serious
+three file customer product categories of category
+and transactions.
+Right. So basically we have successfully loaded all our
+source data in power beer, right?
+You could also see your data or your in your model view
+on the left side.
+If you see this is the model, you just get rid of this um
+This particular stuff so that you have a better view.
+So this is uh just reduce the Zuma bed.
+Okay so groups let me zoom.
+Oh okay so this is your customer file.
+This is a product category subcategory there's a transaction
+right now all these three files, the data has been imported
+in power here.
+Right. This has been important in power here.
+So data is sitting in power here now but if you see these
+three files are not related to each other, the three tables
+are not related to each other in the next session we'll see
+how do you relate how do you create relationship?
+But this is how you get the data from your source system
+into power bi.
+A. Okay.
+All right this is it about this session.
+I'll see you in the next particular session where we'll see
+how do you create relationships and a few other properties
+for this particular data which we have imported in power BI.
+Alright.
+Stay tuned, seeing the next task.
